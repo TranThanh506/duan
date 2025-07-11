@@ -96,21 +96,11 @@ body{
     margin-top: 55px;
     height: 100%;
     width: 100%;
-    /* background-image: url(/img/555.jpg);
+    background-image: url(/img/wtf.jpg);
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
     display: flex;
     align-items: center;
-}
-
-#bgVideo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    object-fit: cover;
-    z-index: -1;
 }
 
 #content .web1, .web2{
