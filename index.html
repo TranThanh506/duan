@@ -4,11 +4,41 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> thanh </title>
-    </head> 
+        <link rel="stylesheet" href="styles.css">
+        <title> Đẳng Cấp </title>
+    </head>
 
     <body>
-        <h1> adu anh em </h1>
-        <h2> anh em adu </h2>
+        <div id="container">
+            <a class="btn" href="/index.html"> Home </a>
+            <a class="btn" href="/info.html"> Thông Tin </a>
+            <a class="btn" href="/music.html"> Nhạc </a>
+            <a class="btn" href="/random.html"> Random Bài </a>
+            <a class="btn2" href=""> ||| 
+                <ul class="nav">
+                    <li class="cnav"> dark mode </li>
+                    <li class="cnav"> light mode </li>
+                    <li class="cnav"> more </li>
+                </ul>
+            </a>
+        </div>
+
+        <div id="content">
+            <video autoplay muted loop playsinline id="bgVideo">
+                <source src="./video/hantin.mp4" type="video/mp4">
+            </video>
+            <div class="menu">
+                <div class="menu1">
+                    <a href="https://www.facebook.com/" class="web1" target="_blank"> Facebook </a>
+                    <a href="https://www.youtube.com/" class="web1" target="_blank"> Youtube</a>
+                    <a href="https://docs.google.com/spreadsheets/d/1v7jH_jT16kCcsnh1UHU7a7_V8vplK03293up-6kfcNA/edit?gid=0#gid=0" class="web1" target="_blank"> Roadmap </a>
+                </div>
+                <div class="menu2">
+                    <a href="http://on.hsgtin.vn/problems/" class="web2" target="_blank"> Hsgtin </a>
+                    <a href="https://codeforces.com/" class="web2" target="_blank"> Codeforces </a>
+                    <a href="https://oj.vnoi.info/problems/" class="web2" target="_blank"> Vnoi</a>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
