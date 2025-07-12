@@ -1,0 +1,266 @@
+*{
+    font-size: 20px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 890px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+#container{
+    top: 0;
+    height: 55px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    border: 1px solid white;
+    z-index: 1000;
+}
+
+.btn{
+    height: 36px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: rgb(97, 92, 92);
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+.btn2{
+    height: 55px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(97, 92, 92);
+    box-sizing: border-box;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.5s;
+    position: absolute;
+    right: 0;
+}
+
+.nav{
+    background-color: rgb(97, 92, 92);
+    margin-top: 210px;
+    position: absolute;
+    right: 0;
+    height: 135px;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.cnav{
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover{
+    background-color: rgb(54, 52, 52);
+}
+
+.btn2:hover{
+    background-color: rgb(54, 52, 52);
+}
+
+.btn2:hover .nav{
+    background-color: rgb(54, 52, 52);
+    opacity: 100;
+}
+
+.btn:first-child{
+    margin-left: 15px;
+}
+
+#content{
+    margin-top: 55px;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/555.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#content .web1, .web2{
+    height: 340px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(97, 92, 92);
+    box-sizing: border-box;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 50px;
+    transition: 0.2s;
+}
+
+#content .web2:hover{
+    background-color: rgb(54, 52, 52);
+}
+#content .web1:hover{
+    background-color: rgb(54, 52, 52);
+}
+
+.menu{
+    margin-left: 26%;
+}
+
+.menu1{
+    height: 380px;
+    width: 900px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.menu2{
+    height: 380px;
+    width: 900px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border-radius: 30px;
+}
+
+#content .box{
+    background-color: rgb(54, 52, 52);
+    height: 95%;
+    width: 97%;
+    margin-left: 1.1%;
+    border: 10px solid black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content .box h1{
+    background-color: red;
+    font-size: 5em;
+    border: 10px solid black;
+    padding: 10px;
+}
+
+#content .box h1:hover{
+    background-color: red;
+    font-size: 5em;
+    border: 10px solid yellow
+}
+
+#content .box2{
+    background-color: rgb(54, 52, 52);
+    height: 95%;
+    width: 97%;
+    margin-left: 1.1%;
+    border: 10px solid black;
+    border-radius: 30px;
+    position: relative;
+}
+
+#content .box2 .nav1{
+    background-color: rgb(88, 87, 87); 
+    display: flex;
+    width: 97%;
+    border-radius: 30px;
+    padding: 15px;
+    border: 5px solid black;
+    margin-bottom: 5px;
+    margin-left: 9px;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+}
+
+#content .box2 .list{
+    background-color: rgb(88, 87, 87);  
+    height: 82%;
+    width: 97%;
+    border-radius: 30px;
+    padding: 15px;
+    border: 5px solid black;
+    margin-top: 5px;
+    margin-left: 9px;
+    position: absolute;
+    top: 0;
+    overflow: auto;
+}
+
+#content .box2 .add1{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 30px;
+    height: 55px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+    transition: 0.2;
+}
+
+#content .box2 .add2{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 30px;
+    height: 55px;
+    width: 2000px;
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+    transition: 0.2;
+}
+
+#content .box2 .add:hover{
+    background-color: rgb(54, 52, 52);
+    color: white;
+}
+
+.problem {
+    display: flex;
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.6);
+    height: 50px;
+    width: 80%;
+    margin-left: 20px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    border: 5px solid black;
+}
